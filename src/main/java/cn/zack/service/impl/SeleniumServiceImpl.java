@@ -32,6 +32,7 @@ public class SeleniumServiceImpl implements SeleniumService {
 
     /**
      * 打开hub页面, 等待数据账号登录
+     * @param driverPath eg: E:\chromeDriver.exe
      */
     @Override
     public void getHubPage(String driverPath) {
